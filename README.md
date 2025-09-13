@@ -3,7 +3,7 @@ This is a challenge for Web Exploitation category, to modify the Referer paramet
 
 ## Requirements
 - Docker
-- 512 MB of RAM 
+- 50-90 MB of RAM 
 - Around 70-200MB of storage.
 
 ## Setup 
