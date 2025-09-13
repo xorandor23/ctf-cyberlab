@@ -2,7 +2,9 @@
 This is a challenge for Web Exploitation category, to modify the Referer parameter from Request Headers.
 
 ## Requirements
-512 MB of RAM and storage around 70-200MB.
+- Docker
+- 512 MB of RAM 
+- Around 70-200MB of storage.
 
 ## Setup 
 To setup this challenge, you need to built this into docker image first:
