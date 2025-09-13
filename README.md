@@ -1,4 +1,4 @@
-# You-wouldn-t-get-this-from-any-other-guy!
+# You wouldn't get this from any other guy!
 This is a challenge for Web Exploitation category, to modify the Referer parameter from Request Headers.
 
 ## Requirements
