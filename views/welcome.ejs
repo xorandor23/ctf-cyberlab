@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome</title>
+  <script src="/tailwind.js"></script>
+
+  <style>
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .marquee {
+      display: inline-block;
+      white-space: nowrap;
+      animation: marquee 10s linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-green-500 flex items-center justify-center min-h-screen overflow-hidden">
+  <div class="w-full overflow-hidden">
+    <p class="text-[450px] text-white marquee">
+      How do i know you're from <b><%= link %></b> ?
+    </p>
+  </div>
+</body>
+</html>
