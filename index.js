@@ -3,7 +3,7 @@ const serverless = require("serverless-http");
 const path = require("path");
 const app = express();
 
-const flag = "HMTICTF{n3V3r_90nn4_9iV3_y0u_up_7b04bed1f671}"
+const flag = process.env.FLAG
 const link = "http://rocknroll.fun/"
 const PORT = 5000
 
