@@ -1,10 +1,11 @@
-# You-wouldn-t-get-this-from-any-other-guy!
-This is a challenge for Web Exploitation category, to modify the Referer parameter from Request Headers.
+# where are you from?
+This challenge belongs to the Web Exploitation category, which involves manipulating the use of Referer headers.
 
 ## Requirements
-- Docker
-- 50-90 MB of RAM 
-- Around 70-200MB of storage.
+- Docker installed and running (Linux / Windows / macOS).  
+- RAM: **50–90 MB** available for the container.  
+- Storage: around **70–200 MB** free for the image and container.  
+- An available host port (default example uses `9000`).
 
 ## Setup 
 To setup this challenge, you need to built this into docker image first:
@@ -21,4 +22,4 @@ sudo docker ps
 ```
 ---
 ## Writeups
-besok
+
