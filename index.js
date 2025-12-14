@@ -3,7 +3,7 @@ const serverless = require("serverless-http");
 const path = require("path");
 const app = express();
 
-const flag = process.env.FLAG
+const flag = "CYBERLAB{d0nt_w0rry_b3_h4ppy_0b1h82h}"
 const link = "http://rocknroll.fun/"
 const PORT = 5000
 
@@ -22,7 +22,4 @@ app.get("/", (req, res) => {
 /* module.exports = app; */
 /* module.exports.handler = serverless(app); */
 
-app.listen(PORT, () => {
-    console.log(`Challenge 1 Started`);
-    console.log(`Server running at http://localhost:${PORT}`);
-});
+module.exports = app;
